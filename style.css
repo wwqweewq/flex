@@ -1,0 +1,51 @@
+.holder {
+    display: flex;
+    width: 300px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.item1 {
+    width: 50%;
+    height: 50px;
+    border: 1px solid #000;
+    text-align: center;
+    background: crimson;
+    order: -5;
+}
+
+.item2 {
+    width: 33%;
+    height: 50px;
+    border: 1px solid #000;
+    text-align: center;
+    background: slateblue;
+    order: 1;
+}
+
+.item3 {
+    width: 33%;
+    height: 50px;
+    border: 1px solid #000;
+    text-align: center;
+    background: blueviolet;
+    order: -3;
+}
+
+.item4 {
+    width: 31.2%;
+    height: 50px;
+    border: 1px solid #000;
+    text-align: center;
+    background: green;
+    order: 1;
+}   
+
+.item5 {
+    width: 48%;
+    height: 50px;
+    border: 1px solid #000;
+    text-align: center;
+    background: goldenrod;
+    order: -4;
+}
